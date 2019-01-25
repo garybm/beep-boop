@@ -16,6 +16,20 @@ _The Beep Boop Game Website gather user numeric input and will return a range of
 * _Click the "Show Me" button_
 * _A track should display below the button_
 
+## Specifications
+
+* _Program replaces 1 with "Beep!"_
+_Example input: 1_
+_Example output: "Beep!"_
+
+* _Program replaces 2 with "Boop!"_
+_Example input: 2_
+_Example output: "Beep!", "Boop!"_
+
+* _Program replaces 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
+ _Example input: 3_
+_Example output: "I'm sorry, Dave. I'm afraid I can't do that."_
+
 
 ## Known Bugs
 
@@ -27,7 +41,11 @@ _If you have problems or would like to comment about something feel free to cont
 
 ## Technologies Used
 
-_This website uses HTML, CSS, and Bootstrap, JavaScript & jQuery_
+* _HTML
+* _CSS
+* _Bootstrap
+* _JavaScript
+* _jQuery
 
 ### License
 
