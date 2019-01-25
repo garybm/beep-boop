@@ -10,21 +10,21 @@
   <body>
     <div class="hero-image">
       <div class="hero-text">
-        <h1 style="font-size:70px">Beep <span style="color:pink">Boop</span></h1>
+        <h1 style="font-size:90px">Beep <span style="color:pink">Boop</span></h1>
       </div>
     </div>
       <div class="container">
-        <div class="jumbotron">
-          <h2>The Beep-Boop Game!</h2>
+        <div class= "jumbotron">
+          <h1>The Beep-Boop Game!</h1>
+          <form id="input-form">
+            <div class="form-group">
+              <label style="font-size:20px" for="user-input">Please enter a number:</label>
+              <input class="form-control" id="user-input" type="number" placeholder="Enter number here.">
+            </div>
+            <button class="button">SHOW ME!</button>
+          </form>
         </div>
-        <form id="input-form">
-          <div class="form-group">
-            <label for="user-input">Number:</label>
-            <input class="form-control" id="user-input" type="number" placeholder="Enter your number here.">
-          </div>
-          <button type="submit" class="btn-primary">Push me!</button>
-        </form>
-        <div id="display-field">
+        <div class= "well" id="display-field">
         </div>
       </div>
   </body>
