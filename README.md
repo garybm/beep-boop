@@ -24,7 +24,7 @@ _The Beep Boop Game Website gather user numeric input and will return a range of
 
 * _Program replaces 2 with "Boop!"_
   * _Example input: 2_
-  * _Example output: "Beep!", "Boop!"_
+  * _Example output: "Boop!"_
 
 * _Program replaces 3 with "I'm sorry, Dave. I'm afraid I can't do that."_
   * _Example input: 3_
