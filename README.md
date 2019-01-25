@@ -10,11 +10,14 @@ _The Beep Boop Game Website gather user numeric input and will return a range of
 
 ## Setup/Installation Requirements
 
-*Clone this repository to your local machine
-*Open the index.html file in your prefer browser
-*Enter a nemw in the name input field
-*Click the "Show Me" button
-*A track should display below the button
+*_Clone this repository to your local machine_
+*_Open the index.html file in your prefer browser_
+*_Enter a nemw in the name input field_
+*_Click the "Show Me" button_
+*_A track should display below the button_
+* _This is a great place_
+
+
 
 
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
