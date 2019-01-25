@@ -15,8 +15,18 @@
     </div>
       <div class="container">
         <div class= "jumbotron">
-          <h1>The Beep-Boop Game!</h1>
+          <h1>The <span style="color:pink"> Beep Boop</span> Game!</h1>
+          <p>The Beep Boop game will return a range of numbers from 0 to the user inputted number with the following exceptions:</p>
+          <ul>
+            <li>Numbers that contain a 1: all digits are replaced with <strong>"Beep!"</strong></li>
+            <li>Numbers that contain a 2: all digits are replaced with <strong>"Boop!"</strong></li>
+            <li>Numbers that contain a 3: all digits are replaced with <strong>"I'm sorry, Dave. I'm afraid I can't do that."</strong></li>
+          </ul>
           <form id="input-form">
+            <div class="form-group">
+              <label style="font-size:20px" for="name">Please enter your name:</label>
+              <input class="form-control" id="name" type="text" placeholder="Enter your name.">
+            </div>
             <div class="form-group">
               <label style="font-size:20px" for="user-input">Please enter a number:</label>
               <input class="form-control" id="user-input" type="number" placeholder="Enter number here.">
@@ -24,7 +34,7 @@
             <button class="button">SHOW ME!</button>
           </form>
         </div>
-        <div class= "well" id="display-field">
+        <div class= "jumbotron" id="results">
         </div>
       </div>
   </body>

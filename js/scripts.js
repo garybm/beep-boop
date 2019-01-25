@@ -1,13 +1,19 @@
 
 
-// Back-End
+//This is the backend functionality of the website
 var beepBoop = function(userInput){
   var results = [];
   for (var i = 0; i <= userInput; i++) {
     var inputString = (i).toString();
+    if (i === 1) {
+      results.push("Beep!");
+    } else if (inputString.includes("2")) {
+      results.push("Boop! ")
   
+  return results;
+}
 
-//User interface
+//This is the User logic
 
 $(document).ready(function(){
   $("#input-form").submit(function(event){
@@ -16,7 +22,7 @@ $(document).ready(function(){
     var output = beepBoop(initialInput);
     var outputString = output.join("");
 
-    $("#display-field").show();
-    $("#display-field").text(outputString);
+    $("#results").show();
+    $("#results").text(outputString);
   });
 });
