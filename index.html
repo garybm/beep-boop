@@ -13,17 +13,19 @@
         <h1 style="font-size:70px">Beep <span style="color:pink">Boop</span></h1>
       </div>
     </div>
-    <div class="container">
-      <form id="formOne">
-        <div class="form-group">
-          <label for="person1">A number</label>
-          <input id="number" class="form-control" type="text">
+      <div class="container">
+        <div class="jumbotron">
+          <h2>The Beep-Boop Game!</h2>
         </div>
-        <button type="submit" class="btn btn-primary">Show me the story!</button>
-      </form>
-      <div id="story">
-        <p><span class="numberOne"></span></p>
+        <form id="input-form">
+          <div class="form-group">
+            <label for="user-input">Number:</label>
+            <input class="form-control" id="user-input" type="number" placeholder="Enter your number here.">
+          </div>
+          <button type="submit" class="btn-primary">Push me!</button>
+        </form>
+        <div id="display-field">
+        </div>
       </div>
-    </div>
   </body>
 </html>

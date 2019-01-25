@@ -1,30 +1,33 @@
-//Businnes logic
-// Spec #1	Program replaces 1 with "Beep!"
-	// ◦	Example input: 1
-	// ◦	Example output: "Beep!"
-
-// function replaceOne(number) {
-//   var results = [];
-//   for (var i = 0; i <= number; i++) {
-//   var inputString = (i.toString()).split("");
-//     if (i === 1 && i !== 0) {
-//       number.push("beep!");
-//     };
-// };
-//  return numberList;
-//
-// }
 
 
+// Back-End
+var beepBoop = function(userInput){
+  var results = [];
+  for (var i = 0; i <= userInput; i++) {
+    var inputString = (i).toString();
+    if (i0) {
+      results.push("I'm sorry, Dave. I'm afraid I can't do that. ");
+  //   } else if (inputString.includes("1")) {
+  //     results.push("Boop! ")
+  //   } else if (inputString.includes("0")) {
+  //     results.push("Beep! ");
+  //   } else {
+  //     results.push(""+ i +". ")
+  //   }
+  // }
+  return results;
+}
 
+//User interface
 
-// User Interface Logic
-$(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    var inputNumber =($("input#number").val());
-    $(".numberOne").text(inputNumber);
-    $("#story").show();
-
+$(document).ready(function(){
+  $("#input-form").submit(function(event){
     event.preventDefault();
+    var initialInput = parseInt($("#user-input").val());
+    var output = beepBoop(initialInput);
+    var outputString = output.join("");
+
+    $("#display-field").show();
+    $("#display-field").text(outputString);
   });
 });
