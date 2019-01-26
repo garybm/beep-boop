@@ -10,7 +10,7 @@ var results = [];
     } else if (inputString.includes("2")) {
       results.push(" Boop! ")
     } else if (inputString.includes("3")) {
-      results.push(" I'm sorry  I'm afraid I can't do that. ");
+      results.push(" I'm sorry Dave I'm afraid I can't do that. ");
     } else {
       results.push(""+ i +". ")
     }
@@ -18,7 +18,7 @@ var results = [];
   return results;
 }
 
-//This is the User logic
+//This is the User logic//
 
 $(document).ready(function(){
   $("#input-form").submit(function(event){
