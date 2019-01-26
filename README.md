@@ -6,7 +6,7 @@
 
 ## Description
 
-_The Beep Boop Game Website gather user numeric input and will return a range of numbers from 0 to the user inputted number with different exceptions.
+_The Beep Boop Game Website gather user numeric input and will return a range of numbers from 0 to the user inputted number with different exceptions. Here is a link to the viewable website: https://garybm.github.io/beep-boop/
 
 ## Setup/Installation Requirements
 
@@ -33,7 +33,7 @@ _The Beep Boop Game Website gather user numeric input and will return a range of
 
 ## Known Bugs
 
-_no know bugs_
+_No know bugs_
 
 ## Support and contact details
 

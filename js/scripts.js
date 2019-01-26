@@ -3,14 +3,10 @@
 //This is the backend functionality of the website
 var beepBoop = function(userInput){
 var results = [];
-var nameInput = $("#name").val();
-  if(nameInput ==="") {
-    alert("Please enter your name.");
-  }
   for (var i = 0; i <= userInput; i++) {
     var inputString = (i).toString();
     if (i === 1) {
-      results.push(" Beep!");
+      results.push(" Beep! ");
     } else if (inputString.includes("2")) {
       results.push(" Boop! ")
     } else if (inputString.includes("3")) {
@@ -26,13 +22,12 @@ var nameInput = $("#name").val();
 
 $(document).ready(function(){
   $("#input-form").submit(function(event){
-    var initialInput = parseInt($("#user-input").val());
-    var output = beepBoop(initialInput);
+    var userInput = parseInt($("#user-input").val());
+    var output = beepBoop(userInput);
     var outputString = output.join("");
 
     $("#results").show();
     $("#results").text(outputString);
       event.preventDefault();
-
   });
 });
