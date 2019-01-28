@@ -5,7 +5,10 @@ var beepBoop = function(userInput, name){
   var results = [];
   for (var i = 0; i <= userInput; i++) {
     var inputString = (i).toString();
-    if (i === 1) {
+
+    if (inputString.includes("1") && inputString.includes("2")){
+     results.push(" BeepBoop ")
+    } else if (inputString.includes("1")) {
       results.push(" Beep! ");
     } else if (inputString.includes("2")) {
       results.push(" Boop! ")
@@ -26,7 +29,6 @@ $(document).ready(function(){
     var userName= $("#name").val();
     var output = beepBoop(userInput, userName);
     var outputString = output.join("");
-
     $("#results").show();
     $("#results").text(outputString);
       event.preventDefault();
