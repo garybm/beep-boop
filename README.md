@@ -17,6 +17,13 @@ _The Beep Boop Game Website gather user numeric input and will return a range of
 * _A track should display below the button_
 
 ## Specifications
+* _Program will print the number if it does not contain 1,2 or 3_
+  * _Example input: 9_
+  * _Example output: "0. Beep! Boop! I'm sorry ewe I'm afraid I can't do that. 4. 5. 6. 7. 8. 9.""
+  
+* _Program replaces the number 1 and 2 with "BeepBoop"_
+  * _Example input: 12_
+  * _Example output: "BeepBoop"_
 
 * _Program replaces 1 with "Beep!"_
   * _Example input: 1_
